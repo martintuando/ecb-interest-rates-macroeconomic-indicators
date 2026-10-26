@@ -1,7 +1,5 @@
 # ECB Interest Rates and Macroeconomic Indicators
 
-## Motivation
-
 Economic models such as the Phillips curve and the Taylor rule describe relationships between inflation, economic activity and monetary policy. I wanted to explore these relationships using real-world data and see how different macroeconomic indicators are statistically related to the ECB deposit facility rate.
 
 ## Analysis
@@ -21,7 +19,7 @@ The analysis includes time-series visualizations, correlation matrices, correlat
 
 ### Time-Series Visualizations
 
-The development of selected macroeconomic indicators over time, normalized to the first observation (= 100).
+The development of selected macroeconomic indicators over time, normalized to the first observation.
 
 ![Inflation, Unemployment and EUR/USD](images/inflation_unemployment_eurusd.png)
 
