@@ -34,13 +34,11 @@ Correlation heatmaps comparing relationships in data levels and monthly changes 
 ### OLS Regression
 
 Regression results for the ECB deposit facility rate using seven macroeconomic indicators, with HAC/Newey-West standard errors.
+![OLS Regression with HAC Standard Errors](images/ols_hac_results.png)
 
 ### Interest Rate Persistence
 
 The ECB deposit facility rate exhibits strong temporal persistence. Across the sample, 82.3% of monthly observations show no change from the previous month. The autocorrelation is 0.994 at a one-month lag and remains high at 0.970 over three months, before declining to 0.904 at six months and 0.729 at twelve months. These results highlight the gradual adjustment of the policy rate and the importance of accounting for its historical level when analyzing its relationship with macroeconomic indicators. While inflation, unemployment and other indicators provide relevant economic context, their ability to explain the rate is limited by the persistence of monetary policy and other factors not captured by the model. This also motivates the subsequent forecasting project, which examines whether including the current interest rate improves predictions beyond what macroeconomic indicators alone can achieve.
-
-![OLS Regression with HAC Standard Errors](images/ols_hac_results.png)
-
 ## Project Structure
 
 ```text
